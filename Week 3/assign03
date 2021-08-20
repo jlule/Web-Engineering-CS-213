@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+
+  /* display: inline-block; */
+
+}
+.grid-item {
+
+  padding: 20px;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Lule's Assignments</title>
+</head>
+<body>
+  <header>
+    <br>
+    <a href =" index.html"> Index(Week One)</a>
+    <br>
+ </header>
+  <h1>Welcome to James' Assignments</h1>
+  <div>
+    <p> My Name is James Lule. My major is Software Engineering and I am from Uganda</p>
+    <br>
+    <p>
+        This week we had an introduction to CSS. We learnt about how CSS affect the font, background and the overall appearance of the webpage
+    </p>
+
+    <p>
+        I also learnt that you can change the color of a page you can also change the organization and placement of
+        elements on your page
+    </p>
+    <h2>The list below is a summary of all the cool things you can do with CSS</h2>
+      <ul class="a">
+    <li>Describes how HTML Elements are displayed on the screen</li>
+    <li>It can also control the layout of multiple web pages</li>
+    <li>It beautifies the web page that is going to be on paper</li>
+  </ul>
+</div>
+  <div>
+      <h2>
+          In my free time when I am not sudying these are some of my hobbies
+      </h2>
+  </div>
+
+  <div class = "grid-container">
+
+    <div class="grid-item">
+        <p>Watching basketball</p>
+        <img src ="basketball.jpg">
+    </div>
+
+    <div class="grid-item">
+        <p>Swimming</p>
+        <img src ="swimming.jpg">
+    </div>
+  </div>
+  <p> I am doing a poll to see which of the following sports are peoples favourite</p>
+
+  <p> We will also be doing a ruffle and the winner will get a special gift.</p>
+  <p>Please enter your phone number after selecting your sport and we will contact you if you win. Thank you!</p>
+  <form >
+    <label for="hobbies">Choose a hobbie:</label>
+    <select name="hobby" id="activity">
+      <option value="Basketball">Basketball</option>
+      <option value="Volleyball">Volleyball</option>
+      <option value="Spike ball">Spike ball</option>
+      <option value="Dodgeball">Dodgeball</option>
+    </select>
+    <br><br>
+    <label for="phone">Enter a phone number:</label>
+  <input type="" id="cell" name="cell phone" maxlength="10">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+
+  <blockquote>
+      You miss 100% of the shots you don't take
+  </blockquote>
+  <footer>
+
+  </footer>
+</body>
+</html>
+
+
+
+
